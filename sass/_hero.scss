@@ -1,0 +1,227 @@
+#hero{
+	height: 690px; 
+   	width: 100%;
+   	background: url("../img/hero-mob.jpg") no-repeat center center scroll;
+   	background-size: cover;
+   	background-attachment: fixed; 
+   	h1{
+	   	font-size: 70px;
+	   	margin-top:300px;
+   }
+   .btn-info{
+	   	font-size: 30px;
+	   	border-radius: 0;
+	   	padding-left: 140px;
+	   	padding-right: 140px;
+	   	background-color: #008598;
+	   	border: #008598;
+	   	margin-bottom: 50px;
+	   	
+   }
+   p{
+   		font-size: 30px;
+   		color: #777;
+   }
+}
+
+
+#powerful{
+	background: url("../img/heroPowerful.jpg")no-repeat 100%;
+   	background-size: cover;
+   	background-attachment: fixed; 
+   	height: 730px; 
+   	width: 100%;
+   	
+
+   	h3, h1, p{
+   		color:white;
+   	}
+  
+   	#nm{
+   		background-color: rgba(0,0,0, 0.3);
+   		border-top: 1px solid #008598;
+   		border-bottom: 1px solid #008598;
+   		margin-top:50px;
+   		margin-bottom: 50px;
+
+   		h1{
+   			margin-top:50px;
+   			font-size: 80px;
+   			margin-bottom: 10;
+   		}
+   		p{
+   			color:#777;
+   		}
+
+   	}
+}
+.width40{
+	max-width: 40%;
+}
+
+#video{
+	h2{
+		font-size: 65px;
+		margin-bottom: 20px;
+	}
+	.info{
+		margin-top:40px;
+		margin-bottom: 50px;
+		p{
+			color:#777;
+			font-size: 15px;
+		}
+	}
+	
+	h3{
+		color: #777;
+	}
+	.bold{
+		margin-bottom: 10px;
+	}
+	.btn-danger{
+		margin-bottom: 100px;
+	}
+	
+}
+
+#versatility{
+	background-color: #f9fcfc;
+	.bold{
+		margin-bottom: 50px;
+	}
+	.line{
+		border-top: 1px solid #008598;;
+	}
+	.description{
+		margin-top:30px;
+		font-weight: bold;
+		color: black;
+	}
+	.versatility{
+		margin-bottom: 50px;
+	}
+	.icon{
+		z-index: -111;
+		max-width: 8%;
+	}
+	
+}
+#keyless{
+	position: relative;
+}
+.part1{
+	float:right;
+	margin-bottom: 50px;
+}
+.part2{
+	position: absolute;
+    z-index: -1;
+    top: 79%;
+    left: 25%;
+}
+#accessories{
+	.accessories{
+		height: 402px; 
+   		background: url("../img/Accessories.jpg") no-repeat center center scroll;
+   		background-size: 100%; 
+
+	}
+	.accessories-text{
+		background-color: #343433;
+		.info-p{
+			color:white;
+
+		}
+	}
+	.wrapper{
+		max-width: 300px;
+		margin:0 auto;
+		padding-top:80px;
+		.btn-danger{
+			margin-bottom: 100px;
+		}
+	}
+}
+
+#comfortable{
+	background-color: rgba(245,245,245,0.6);
+	.icons{
+		margin-bottom: 150px;
+	}
+}
+
+#battery{
+	.dark{
+		margin-top:40px;
+	}
+	.width40{
+		margin: 30px 0 30px 0;
+	}
+	.img-drill{
+		margin-top:100px;
+	}
+	.btn-danger{
+		margin-bottom: 100px;
+	}
+
+}
+#warranty{
+	height: 650px; 
+   	width: 100%;
+   	background: url("../img/dhp481-3-year-warranty-background.jpg") no-repeat 100%;
+   	background-size: cover;
+   	background-attachment: fixed; 
+   	img{
+   		margin-top: 100px;
+   	}
+   	h3, .info-p, .bold{
+   		color:white;
+   	}
+   	.bold{
+   		margin-top:30px;
+   	}
+   	.blue{
+   		margin:20px 0 20px 0;
+   		font-weight: bold;
+   	}
+
+}
+
+#battery-led {
+	position: relative;
+	background: url('../img/dhp481-battery-icon-base.png') no-repeat 50%;
+	background-size: contain;
+	height: 90px;
+	img {
+		position: absolute;
+		width: 40%;
+		left: 50%;
+		margin-left: -66px;
+	}
+
+}
+
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.it{
+	position:absolute;
+}
+
+
+

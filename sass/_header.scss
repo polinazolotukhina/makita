@@ -1,0 +1,51 @@
+.navbar-default {
+	.navbar-nav > li > a {
+	    color: #777;
+	    font-weight: bold;
+	    font-size: 15px;
+	}
+	.navbar-right{
+		margin-top:10px;
+		.fa{
+			font-size: 25px;
+    		margin-left: 5px;
+    		margin-right: 5px;
+    		color:black;
+		}
+	}
+}
+.nav-img{
+	max-width: 100px;
+
+}
+
+.nav > li > a {
+    padding: 10px 12px;
+}
+
+footer{
+	background-color: #3f4954;
+	min-height: 300px;
+	.fa{
+		font-size: 30px;
+		padding: 0 10px 0 10px;
+
+	}
+	.floatleft{
+		float:left;
+		.fa{
+			color:white;
+		}
+	}
+	p{
+		font-size: 15px;
+		color:white;
+		margin:0;
+	}
+	a{
+		color:white;
+	}
+	.footer-row{
+		margin-top:50px;
+	}
+}

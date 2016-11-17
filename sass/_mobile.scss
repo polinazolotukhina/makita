@@ -1,0 +1,112 @@
+/*========== Non-Mobile First Method ==========*/
+
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 768px) {
+
+	#hero{
+	   	h1{
+		   	margin-top:200px;
+			color: white;
+		    font-weight: bold;
+		    text-shadow: 3px 3px 3px black;
+	   }
+	   .btn-info{
+	   	    padding-left: 120px;
+    		padding-right: 120px;
+	   }
+	}
+	#versatility{
+		img{
+			max-width: 40%;
+			.icon{
+				max-width: 8%;
+			}
+		}
+
+	}
+	
+	.footer-row{
+		text-align: center;
+	}
+	.foot2{
+		margin-top: 50px;
+	}
+	.foot3{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+ 	#hero{
+		height: 830px; 
+	   	width: 100%;
+	   	background-image: url("../img/heroLanding.jpg");
+	   	background-position: 100% 0;
+	   	h1{
+	   		margin-top: 250px;
+	   	}
+	}
+
+	#battery-led {
+		img {
+			width: 18%;
+		}
+	}
+	    
+	.part2{
+	    top: 430px;
+    	left: 195px;
+		}
+	#versatility{
+		.icon{
+			max-width: 40%;
+		}
+	}
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	#versatility{
+		.icon{
+			max-width: 40%;
+		}
+	}
+	.part2{
+		top: 507px;
+	    left: 25%;
+	}
+
+	.warranty-info{
+		text-align: left;
+	}
+
+	#dph{
+		.verticalLine {
+			border-left: 1px solid #008598;
+		}
+		.drills {
+			margin-top:30px;
+			margin-bottom: 30px;
+		}
+
+	}
+	#battery-led {
+		height: 125px;
+		img {
+			width: 40%;
+			margin-left: -90px;
+		}
+
+	}
+
+}

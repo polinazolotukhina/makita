@@ -1,0 +1,21 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+@import "header";
+
+@import "global";
+
+@import "hero";
+
+@import "mobile";
+
+img{
+     max-width: 100%;
+}
+     

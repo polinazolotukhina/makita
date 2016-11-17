@@ -1,0 +1,76 @@
+  img{
+       max-width: 100%;
+  }
+  h1, h2, h4{
+    text-transform: uppercase;
+  }
+  h3{
+    font-size: 60px;
+    margin-top:100px;
+  }
+  p{
+      font-size: 25px;
+      color: #008598;
+    }
+    a{
+      color:white;
+      &:hover {
+        color: #777;   
+      }
+    }
+  .info-p{
+      color: #777;
+      font-size: 20px;
+  }
+  .bold{
+    font-weight: bold;
+  }
+    .dark{
+      color:#60605d!important;
+      font-size: 30px!important;
+      font-weight: bold;
+    }
+    .lead{
+      font-size: 25px;
+    }
+
+  .btn-danger{
+      border-radius: 0;
+  }
+
+  @font-face {
+    font-family: 'BrandonGrotesque-Light';
+    src: url('../fonts/BrandonGrotesque-Light.otf');
+    src: local('☺'), url('../fonts/BrandonGrotesque-Light.otf') format('otf'), url('../fonts/BrandonGrotesque-Light.otf') format('truetype'), url('../fonts/BrandonGrotesque-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body{
+    font-family: 'BrandonGrotesque-Light';
+  }
+
+  /* Animation */
+
+  .slow{
+      -webkit-animation-duration: 3s!important; /* Chrome, Safari, Opera */
+      animation-duration: 3s!important;
+  }
+  .delay-1s{
+      -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+      animation-delay: 1s;
+  }
+  .delay-05s{
+      -webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
+      animation-delay: 0.5s;
+  }
+
+
+
+
+
+
+
+
+
+
+
